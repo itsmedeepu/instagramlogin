@@ -1,0 +1,103 @@
+.header {
+  background-color: darkblue;
+  color: white;
+  height: 80px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.header h2 {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 48px;
+  font-weight: bolder;
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form {
+  display: inline-block;
+  float: right;
+  padding: 20px;
+  margin: 2px 2px 2px 2px;
+}
+
+input {
+  outline: none;
+}
+input:focus {
+  outline: none;
+}
+.logbtn {
+  background-color: darkblue;
+  color: white;
+}
+.logbtn:hover {
+  cursor: pointer;
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.body img {
+  width: 650px;
+  height: 400px;
+}
+
+.content {
+  width: 93%;
+}
+.content h1 {
+  margin-left: 15px;
+  color: darkblue;
+  font-weight: bolder;
+}
+
+.fromreg {
+  margin-left: 200px;
+  width: 100%;
+}
+
+.fromreg h2 {
+  font-size: 28px;
+  color: darkblue;
+  font-weight: bolder;
+}
+.fromreg h4 {
+  font-size: 28px;
+  color: darkblue;
+}
+
+.regform {
+  margin-left: 100px;
+}
+
+.regform label,
+p {
+  color: darkblue;
+  font-weight: bolder;
+}
+.regform a {
+  font-size: 18px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: darkblue;
+}
+.fromreg input {
+  width: 300px;
+  height: 20px;
+  margin-bottom: 3px;
+}
+
+.signbtn {
+  background-color: rgb(42, 246, 42);
+  outline: none;
+  color: white;
+  font-weight: bold;
+}
+
+.signbtn:hover {
+  cursor: pointer;
+}
